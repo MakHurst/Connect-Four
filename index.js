@@ -4,8 +4,16 @@ document.addEventListener("DOMContentLoaded", () =>
     const result = document.querySelector("#result")
     const displayCurrentPlayer = document.querySelector("#current-player")
     let currentPlayer = 1  // used let because it will not always be player 1's turn
+    
     function checkBoard(){
-        
+        for (let y = 0; y < winningArrays.length; y++){
+            const square1 = squares[winningArrays[y][0]]
+            const square2 = squares[winningArrays[y][1]]
+            const square3 = squares[winningArrays[y][2]]
+            const square4 = squares[winningArrays[y][3]]
+
+        }
+
 
     }
 
